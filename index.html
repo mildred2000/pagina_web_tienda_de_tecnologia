@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en línea</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <!--Encabezado-->
+    <div class="div-inicio">
+        <a href="#section-home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    <div class="contenedor">
+        <header class="header-menu" id="menu">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a href="#" class="enlace">
+                    <img src="./img/logo.jpg" alt="" class="logo">
+                </a>
+                <ul>
+                    <li><a href="#section-home">Inicio</a></li>
+                    <li><a href="#section-about">Acerca de</a></li>
+                    <li><a href="#section-produc">Productos</a></li>
+                    <li><a href="#section-form">Contactenos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Principal-->
+        <main>
+            <!--Seccion principal de la pagina-->
+            <section id="section-home" class="section-home">
+                <div class="info">
+                    <h1 class="titulo-principal"><span>90%</span> de descuento en todos los productos de la tienda</h1>
+                    <button class="boton boton-principal">Productos</button>
+                </div>
+                <img class="imagen-principal" src="./img/vendedor.png" alt="vendedor">
+            </section>
+            <!--Seccion sobre mi-->
+            <section id="section-about" class="section-about">
+                <div class="info">
+                    <h2 class="titulo-info">Acerca de</h2>
+                    <div class="contenedor-info">
+                        <p class="parrafo-info">Somos una cadena de almacenes colombiana, comercializadora de electrodomésticos, tecnología, y productos para oficinas. Nuestra tienda es cien por ciento virtual y manejamos envios o todo el país, contamos con 1500 empleados a nivel nacional.</p>
+                        <img class="imagen-info" src="./img/comerciante.png" alt="comerciante">
+                    </div>          
+                </div>          
+                <div class="video-info">
+                    <iframe src="https://www.youtube.com/embed/fuBTK1TNRwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <!--Seccion para mis productos-->
+            <section id="section-produc" class="section-produc">
+                <h2 class="titulo-stock">Productos en Stock</h2>
+                <div class="card-contenedor">
+                    <!--Card1-->
+                    <div class="card">
+                        <img src="img/1.jpg" alt="Reloj" width="200">
+                        <h3 class="titulo">Banda REDMI Smart Band 2 GL</h3>
+                        <p class="precio">$ 150.000</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card2-->
+                    <div class="card">
+                        <img src="img/2.jpg" alt="Reloj" width="200">
+                        <h3 class="titulo">Reloj SAMSUNG Galaxy Watch 4 de 40 mm</h3>
+                        <p class="precio">$ 899.900</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card3-->
+                    <div class="card">
+                        <img src="img/3.jpg" alt="Laptop" width="200">
+                        <h3 class="titulo">Computador Portátil Gamer Victus HP</h3>
+                        <p class="precio">$ 3.349.000</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card4-->
+                    <div class="card">
+                        <img src="img/4.jpg" alt="Laptop" width="200">
+                        <h3 class="titulo">Computador Portátil Gamer Asus TUF Dash</h3>
+                        <p class="precio">$ 7.499.000</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card5-->
+                    <div class="card">
+                        <img src="img/5.jpg" alt="Monitor" width="200">
+                        <h3 class="titulo">Monitor SAMSUNG 32" BM500 Smart</h3>
+                        <p class="precio">$ 1.269.900</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card6-->
+                    <div class="card">
+                        <img src="img/6.jpg" alt="Audifono" width="200">
+                        <h3 class="titulo">Audífonos SONY Alámbricos Over Ear</h3>
+                        <p class="precio">$ 50.900</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card7-->
+                    <div class="card">
+                        <img src="img/7.jpg" alt="Audifono" width="200">
+                        <h3 class="titulo">Audífonos APPLE AirPods Pro 2.ª Generación</h3>
+                        <p class="precio">$ 1.389.000</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                    <!--Card8-->
+                    <div class="card">
+                        <img src="img/8.jpg" alt="Audifono" width="200">
+                        <h3 class="titulo">Audífonos APPLE AirPods Inalambricos</h3>
+                        <p class="precio">$ 619.000</p>
+                        <button class="btn-compra">Comprar</button>
+                    </div>
+                </div>
+            </section>
+            <!--Seccion con formulario para contactarme-->
+            <section id="section-form" class="section-form">
+                <h2 class="titulo">Contáctenos</h2>
+                <form class="formulario">
+                    <label for="nombre">
+                        <span>¿Cual es su nombre?</span>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    </label>
+                    <label for="correo">
+                        <span>¿Cual es su correo?</span>
+                        <input type="email" id="correo" name="correo" placeholder="Correo@gmail.com">
+                    </label>
+                    <label for="mensaje">
+                        <span>Ingrese el mensaje que desea enviar</span>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje....."></textarea>
+                    </label>
+                    <input type="submit" class="btn-enviar">
+                </form>
+            </section>
+        </main>
+        <!--Pie de pagina-->
+        <footer class="section-footer">
+            <p class="autor">Sitio Web Diseñado por: Mildred Tatiana Bolañoz Burbano</p>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/e592da9494.js" crossorigin="anonymous"></script>
+</body>
+</html>
