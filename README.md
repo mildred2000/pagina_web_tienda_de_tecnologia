@@ -1,1 +1,3 @@
-# pagina_web_tienda_de_tecnologia
+# pagina web tienda de tecnologia
+
+Sitio Web Diseñado por: Mildred Tatiana Bolañoz Burbano
